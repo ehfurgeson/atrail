@@ -43,8 +43,13 @@ input{
 #in{
     float: left;
     width: 50%;
-    height: 25%;
+    height: 100%;
     padding: 25px;
+}
+
+#inspread{
+    width: 100%;
+    height: 30%;
 }
 
 #out{

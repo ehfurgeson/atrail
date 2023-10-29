@@ -13,30 +13,34 @@
         <div id="login">
             <h1>Appalachain Trail Planner</h1>
             <!-- this login is completely temporary, may not even have a login in the final, but if I do then I may not even keep it in this position, just to get a feel for how it looks-->
-            <a href="google.com">Login</a>
+            <!-- <a href="google.com">Login</a> -->
         </div>
         <div id="total">
             <div id="calc">
                 <div id="inner">
                     <h1>Planning Calculator</h1>
                     <div id="in">
-                        <input autocomplete="off" type="text">
-                        <p>&nbsp;&nbsp;&nbsp;Days Per Week</p>
+                        <div id="inspread">
+                            <input autocomplete="off" type="text" placeholder="Miles Per Day">
+                            <p>How fit do you think you are? This will primarily determite how many miles per day you can hike, but also as you go you will get used to it and be able to do more</p>
+                        </div>
+                        <div id="inspread">
+                            <input autocomplete="off" type="text" placeholder="Days Per Week">
+                        <p>How many days do you want to hike per week? Even experienced hikers often take one day off!</p>
+                        </div>
+                        <div id="inspread">
+                            <input autocomplete="off" type="text" placeholder="Number of Weeks">
+                            <p>How many weeks at a time will you be able to hike? Can you only get a week off per year to dedicate to hiking? Or are you a student who gets 10?</p>
+                        </div>
                     </div>
                     <div id="out">
-                        hello<br>test1<br>test2<br>test3
-                    </div>
-                    <div id="in">
-                        <input autocomplete="off" type="text">
-                        <p>&nbsp;&nbsp;&nbsp;Miles Per Day</p>
-                    </div>
-                    <div id="out">
-                    </div>
-                    <div id="in">
-                        <input autocomplete="off" type="text">
-                        <p>&nbsp;&nbsp;&nbsp;Number of Segments</p>
-                    </div>
-                    <div id="out">
+                        <h2>Results</h2>
+                        <ul style="align-content: left;">
+                            <li>Number of Segments</li>
+                            <li>Number of days hiking</li>
+                            <li>Number of days Resting</li>
+                        </ul>
+                        <p>Some recommendations</p>
                     </div>
                 </div>
             </div>
