@@ -22,9 +22,15 @@ body{
     align-items: stretch;
 }
 
-#map, #calc{
+#map{
     padding: 20px;
     text-align: center;
+}
+
+#calc{
+    padding: 20px;
+    text-align: center;
+    overflow: unset;
 }
 
 #inner{
@@ -38,6 +44,7 @@ body{
 input{
     border-radius: 30px;
     border: 0px;
+    width: 100%
 }
 
 #in{
@@ -53,6 +60,7 @@ input{
 }
 
 #out{
+    font-size: calc(10px + .5vw);
     float: right;
     width: 50%;
     height: 25%;
